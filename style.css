@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navegation Menu */
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+ul li{
+  color: #2c3e50;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  padding-right: 50px;
+}
+.header{
+  background: #FFF8F3;
+  background-image: url(images/header_bg.png), url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+.nav_title{
+  font-weight: 800;
+  font-size: 45px;
+}
+.text_primary{
+  color: #fd6e0a;
+  font-size: 60px;
+}
+.btn_hire{
+  color: #ecf0f1;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+}
+
+/* Header Banner */
+.banner{
+  display: flex;
+  align-items: center;
+  margin: 50px 200px;
+  justify-content: space-between;
+}
+.banner_subtitle{
+  color: #30336b;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.banner_title{
+  color: #ff7979;
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.banner_text{
+  color: #576574;
+  font-size: 20px;
+  width: 600px;
+}
+.btn_cv{
+  margin-top: 70px;
+  margin-right: 40px;
+  padding: 10px 25px;
+  color: #ecf0f1;
+  background-color: #fd6e0a;
+  border: 0;
+  font-size: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn_contact{
+  margin-top: 25px;
+  padding: 10px 25px;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  font-size: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/* About me style */
+main{
+  max-width: 1140px;
+  /* display: flex; */
+  justify-content: center;
+  margin: 0 auto; 
+}
+.about_me{
+  text-align: center;
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+.section_title{
+  font-size: 35px;
+  font-weight: 700;
+  margin: 130px 30px;
+}
+.section_description{
+  color: #757575;
+  font-size: 18px;
+}
+.about_info_container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.about_title{
+  font-size: 20px;
+  color: #757575;
+}
+.about_description{
+  font-weight: 700;
+  font-size: 18px;
+  color: #30336b;
+}
+/* Skills Item */
+.what_i_do{
+  margin-top: 130px;
+}
+.section_title{
+  margin: 0 auto;
+  text-align: center;
+}
+.section_description{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.skill_container{
+  display: flex;
+  gap: 24px;
+  margin-top: 80px;
+}
+.skill{
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill_title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #ff7979;
+  margin: 25px 0;
+}
+.skill_description{
+  color: #757575;
+  font-size: 18px;
+}
+/* Resume section */
+.resume{
+  margin-top: 130px;
+}
+.education_experiens{
+  display: flex;
+  gap: 25px;
+  margin-top: 70px;
+}
+h4{
+  font-size: 40px;
+  font-weight: 700;
+  color: #30336b;
+  margin-bottom: 30px;
+}
+.education_title{
+  font-size: 30px;
+  font-weight: 700;
+  color: #30336b;
+  margin: 15px 0;
+}
+.college_name{
+  font-size: 25px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+.education_desctiption{
+  font-size: 18px;
+  color: #757575;
+  margin: 25px 0;
+  border-bottom: 1px solid black;
+}
+.experience_title{
+  font-size: 30px;
+  font-weight: 700;
+  color: #30336b;
+  margin: 15px 0;
+}
+.experience_company{
+  font-size: 25px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+.experience_description{
+  font-size: 18px;
+  color: #757575;
+  margin: 25px 0;
+  border-bottom: 1px solid black;
+}
+.btn{
+  margin-top: 50px;
+  text-align: center;
+}
+.contact{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+}
+.section_title{
+  text-align: left;
+}
+.contact input[type=text], [type=email], textarea{
+  margin-bottom: 25px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 10px;
+}
+input{
+  height: 30px;
+}
+.btn_submit{
+  padding: 0 30px;
+  color: #ecf0f1;
+  background-color: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.section_description{
+  margin: 20px 0;
+}
+.icon{
+  padding-right: 30px;
+}
